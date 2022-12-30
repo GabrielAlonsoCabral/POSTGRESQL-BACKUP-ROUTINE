@@ -1,7 +1,7 @@
 # POSTGRESQL-BACKUP-ROUTINE
-  PostgreSQL-Backup-Routine is a API developed with NESTJS-TYPESCRIPT-GRAPHQL-PRISMA. <br/>
-  This API contains an automatizated routine integrated with AWS S3 that every end of day (00:00) <br/>
-  execute a dump in PostgreSQL and save in your AWS S3 Bucket.  
+  PostgreSQL-Backup-Routine is a API developed with NestJS-Typescript-Graphql-Apollo-Prisma. <br/>
+  This API contains an automatizated routine integrated with AWS S3 that every 00:00 <br/>
+  execute a task to generate dump in PostgreSQL and save in your AWS S3 Bucket.  
 
 
   Developed by: <a href="https://www.github.com/gabrielAlonsoCabral">@GabrielAlonsoCabral</a>  
@@ -96,3 +96,21 @@ https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
         </tr>
     </tbody>
   </table>
+
+### Usage
+```
+# Start Docker
+$ yarn docker:up
+
+# Stop Docker
+$ yarn docker:down
+
+# Start Apollo Server
+$ yarn start:dev
+
+# PostgreSQL Manual Backup
+$ sh scripts/pgdata_backup.sh
+
+# PostgreSQL Manual Restore
+$ sh scripts/pgdata_restore.sh add_path_dump_sql_file
+```
