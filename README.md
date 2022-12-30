@@ -96,7 +96,8 @@ https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
         </tr>
     </tbody>
   </table>
-  
+
+<br/>
 
 ### Usage
 ```
