@@ -33,24 +33,66 @@ https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
   <table>
     <thead>
       <tr>
-        <th>words</th>
-        <th>transform to</th>
-        <th>keepUpperCase is false</th>
-        <th>keepUpperCase is true</th>
+        <th>Name</th>
+        <th>Defaul Value</th>
+        <th>Description</th>
+        <th>Required</th>        
       </tr>
     </thead>
     <tbody>
         <tr>
-            <td>"XML HTTP request"</td>
-            <td>pascalCase</td>
-            <td><code>XmlHttpRequest</code></td>
-            <td><code>XMLHTTPRequest</code></td>
+            <td>APP_PORT</td>
+            <td>3000</td>
+            <td>Application server port</td>
+            <td><code>true</code></td>        
         </tr>
         <tr>
-            <td>"new customer ID"</td>
-            <td>camelCase</td>
-            <td><code>newCustomerId</code></td>
-            <td><code>newCustomerID</code></td>
+            <td>PG_DATABASE</td>
+            <td><code>null</code></td>
+            <td>Database name</td>        
+            <td><code>true</code></td>    
+        </tr>
+        <tr>
+            <td>PG_USERNAME</td>
+            <td><code>null</code></td>
+            <td>Database user</td>        
+            <td><code>true</code></td>    
+        </tr>
+        <tr>
+            <td>PG_PASSWORD</td>
+            <td><code>null</code></td>
+            <td>Database password</td>        
+            <td><code>true</code></td>    
+        </tr>
+        <tr>
+            <td>PG_HOST</td>
+            <td><code>null</code></td>
+            <td>Database HOST</td>        
+            <td><code>true</code></td>    
+        </tr>
+        <tr>
+            <td>PG_PORT</td>
+            <td><code>null</code></td>
+            <td>Database port</td>        
+            <td><code>true</code></td>    
+        </tr>
+        <tr>
+            <td>DK_PG_CONTAINER_NAME</td>
+            <td><code>null</code></td>
+            <td>Postgres Docker container name</td>        
+            <td><code>true</code></td>    
+        </tr>
+        <tr>
+            <td>DATABASE_URL</td>
+            <td><code>postgresql://${PG_USERNAME}:${PG_PASSWORD}@${PG_HOST}:${PG_PORT}/${PG_DATABASE}</code></td>
+            <td>Database port</td>        
+            <td><code>true</code></td>    
+        </tr>
+        <tr>
+            <td>AWS_BUCKET_NAME</td>
+            <td><code>null</code></td>
+            <td>AWS S3 Bucket name</td>        
+            <td><code>true</code></td>    
         </tr>
     </tbody>
   </table>
