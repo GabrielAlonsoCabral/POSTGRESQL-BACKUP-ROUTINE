@@ -4,7 +4,8 @@
   execute a dump in PostgreSQL and save in your AWS S3 Bucket.  
 
 
-  Developed by: @GabrielAlonsoCabral
+  Developed by: 
+  - [@gabrielAlonsoCabral] (https://www.github.com/gabrielAlonsoCabral)
   <br/>
 
 ## Installation
