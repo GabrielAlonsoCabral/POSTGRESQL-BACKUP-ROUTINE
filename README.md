@@ -5,7 +5,7 @@
 
 
   Developed by: 
-  - (https://www.github.com/gabrielAlonsoCabral)
+  (https://www.github.com/gabrielAlonsoCabral)
   <br/>
 
 ## Installation
