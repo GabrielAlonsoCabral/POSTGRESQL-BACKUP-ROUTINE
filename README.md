@@ -28,7 +28,7 @@ https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 # check it on AWS IAM if your has enough permissions to PutObject in S3:BUCKET
 ```
 
-* Environment Variables
+## Environment Variables
 
   <table>
     <thead>
