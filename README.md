@@ -84,7 +84,7 @@ https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
         </tr>
         <tr>
             <td>DATABASE_URL</td>
-            <td style="font-size:8px;"><code>postgresql://${PG_USERNAME}:${PG_PASSWORD}@${PG_HOST}:${PG_PORT}/${PG_DATABASE}</code></td>
+            <td style="font-size:2px;"><code>postgresql://${PG_USERNAME}:${PG_PASSWORD}@${PG_HOST}:${PG_PORT}/${PG_DATABASE}</code></td>
             <td>Database port</td>        
             <td><code>true</code></td>    
         </tr>
