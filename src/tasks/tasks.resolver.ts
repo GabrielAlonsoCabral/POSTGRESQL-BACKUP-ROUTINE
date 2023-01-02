@@ -8,7 +8,7 @@ export class TasksResolver {
   constructor(private Environment: ConfigService) {}
   private readonly logger = new Logger(TasksResolver.name);
 
-  @Cron(CronExpression.EVERY_10_SECONDS,{name:"TASK: Postgres Backup"})
+  @Cron(CronExpression.EVERY_DAY_AT_MIDNIGHT,{name:"TASK: Postgres Backup"})
   handleCron() {    
     execSync(`sh ${process.cwd()}${sep}scripts${sep}pgdata_backup.sh`)
   }
